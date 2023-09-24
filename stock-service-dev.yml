@@ -2,7 +2,7 @@ spring:
     datasource:
         url: jdbc:postgresql://localhost:5432/sms?currentSchema=stock&binaryTransfer=true&reWriteBatchedInserts=true&stringtype=unspecified
         username: postgres
-        password: password
+        password: password2
         driver-class-name: org.postgresql.Driver
     jpa:
         generate-ddl: true
